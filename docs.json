@@ -1,0 +1,201 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "1CNG",
+  "colors": {
+    "primary": "#283e80",
+    "light": "#6B85E0",
+    "dark": "#283e80"
+  },
+  "favicon": "/images/1cloudNG_Logo_v2.png",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "User Guide",
+        "pages": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "introduction",
+              "account-sign-up",
+              "profile-setup"
+            ]
+          },
+          {
+            "group": "Projects",
+            "pages": [
+              "create-project"
+            ]
+          },
+          {
+            "group": "Compute",
+            "pages": [
+              "compute-instance",
+              "instance-overview",
+              "monitoring-resources",
+              {
+                "group": "VM Settings",
+                "pages": [
+                  "block-storage",
+                  "change-plan",
+                  "change-hostname",
+                  "change-os",
+                  "change-startup-script",
+                  "firewall",
+                  "port-forwarding",
+                  "networks",
+                  "ssh-keys"
+                ]
+              },
+              "console-access",
+              "vm-activity-logs",
+              "connect-with-ssh",
+              "connect-with-rdp"
+            ]
+          },
+          {
+            "group": "Volumes",
+            "pages": [
+              "create-volume"
+            ]
+          },
+          {
+            "group": "Volume Snapshot",
+            "pages": [
+              "create-volume-snapshot"
+            ]
+          },
+          {
+            "group": "VM Snapshots",
+            "pages": [
+              "create-instance-snapshot"
+            ]
+          },
+          {
+            "group": "Backups",
+            "pages": [
+              "create-backups"
+            ]
+          },
+          {
+            "group": "Templates",
+            "pages": [
+              "create-templates"
+            ]
+          },
+          {
+            "group": "MarketPlace App",
+            "pages": [
+              "what-is-market-place-app",
+              "ha-proxy-server",
+              "word-press-server",
+              "zabbix",
+              "docker"
+            ]
+          },
+          {
+            "group": "Affinity Groups",
+            "pages": [
+              "create-affinity-groups"
+            ]
+          },
+          {
+            "group": "Auto Scaling",
+            "pages": [
+              "create-auto-scaling"
+            ]
+          },
+          {
+            "group": "Networks",
+            "pages": [
+              {
+                "group": "Isolated Network",
+                "pages": [
+                  "create-isolated-network",
+                  "network-overview",
+                  "egress-rules",
+                  "public-ip-addresses",
+                  "associated-vms"
+                ]
+              },
+              {
+                "group": "VPC Network",
+                "pages": [
+                  "create-vpc-networks",
+                  "network-overview-1",
+                  "add-network",
+                  "public-ip-address",
+                  "network-acl-list",
+                  "vpn-gateway",
+                  "vpn-connections",
+                  "associated-vms-1"
+                ]
+              },
+              "public-ip-address-1",
+              "vpn-users",
+              "vpn-customer-gateway"
+            ]
+          },
+          "load-balancer",
+          {
+            "group": "VNF Appliances",
+            "pages": [
+              "vnf-appliances"
+            ]
+          },
+          {
+            "group": "Billing",
+            "pages": [
+              "billing-summary",
+              "subscriptions",
+              "payment-methods",
+              "transactions",
+              "account-statement",
+              "coupons"
+            ]
+          },
+          "support"
+        ]
+      },
+      {
+        "tab": "Best Practice"
+      }
+    ]
+  },
+  "logo": "/images/1cloudNG_Logo_v2.png",
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:hi@mintlify.com"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Dashboard",
+      "href": "https://dashboard.mintlify.com"
+    }
+  },
+  "contextual": {
+    "options": [
+     "copy",
+     "view",
+     "chatgpt",
+     "claude",
+     "perplexity",
+     "mcp",
+     "cursor",
+     "vscode"
+   ]
+  },
+  "footer": {
+    "socials": {
+      "x": "https://x.com/mintlify",
+      "github": "https://github.com/mintlify",
+      "linkedin": "https://linkedin.com/company/mintlify"
+    }
+  },
+  "appearance": {
+    "default": "system"
+  }
+}
